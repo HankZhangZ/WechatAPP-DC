@@ -6,22 +6,39 @@
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
+<<<<<<< HEAD
+=======
+		"enhance": true,
+>>>>>>> 6f003047a38990748946b3b5f015b67a97107995
 		"postcss": true,
 		"preloadBackgroundData": false,
 		"minified": true,
 		"newFeature": true,
 		"coverView": true,
+<<<<<<< HEAD
 		"autoAudits": false,
 		"showShadowRootInWxmlPanel": true,
 		"scopeDataCheck": false,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
 		"uploadWithSourceMap": true,
+=======
+		"nodeModules": false,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"uglifyFileName": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"compileHotReLoad": false,
+>>>>>>> 6f003047a38990748946b3b5f015b67a97107995
 		"babelSetting": {
 			"ignore": [],
 			"disablePlugins": [],
 			"outputPath": ""
 		},
+<<<<<<< HEAD
 		"useCompilerModule": false,
 		"userConfirmedUseCompilerModuleSwitch": false
 	},
@@ -29,6 +46,18 @@
 	"libVersion": "2.11.1",
 	"appid": "wx2854134578771b5d",
 	"projectname": "GITHUB",
+=======
+		"useIsolateContext": true,
+		"useCompilerModule": true,
+		"userConfirmedUseCompilerModuleSwitch": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.8.1",
+	"appid": "wx2854134578771b5d",
+	"projectname": "%E6%96%B0%E5%86%9C%E6%9D%91%E7%A7%91%E6%8A%80%E7%9B%B4%E9%80%9A%E6%A1%A5",
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+>>>>>>> 6f003047a38990748946b3b5f015b67a97107995
 	"cloudfunctionTemplateRoot": "",
 	"watchOptions": {
 		"ignore": []
@@ -51,6 +80,10 @@
 			"list": []
 		},
 		"game": {
+<<<<<<< HEAD
+=======
+			"current": -1,
+>>>>>>> 6f003047a38990748946b3b5f015b67a97107995
 			"list": []
 		},
 		"gamePlugin": {
@@ -59,7 +92,18 @@
 		},
 		"miniprogram": {
 			"current": -1,
+<<<<<<< HEAD
 			"list": []
+=======
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				}
+			]
+>>>>>>> 6f003047a38990748946b3b5f015b67a97107995
 		}
 	}
 }
