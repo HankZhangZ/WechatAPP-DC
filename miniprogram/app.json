@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/问题/问题",
+    "pages/注册/注册",
+    "pages/课堂/课堂"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "新农村科技直通桥",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#56abe4",
+    "backgroundColor": "#ddd",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/问题/问题",
+        "iconPath": "images/问题.png",
+        "selectedIconPath": "images/问题2.png",
+        "text": "问题"
+      },
+      {
+        "pagePath": "pages/注册/注册",
+        "iconPath": "images/注册‘.png",
+        "selectedIconPath": "images/注册2.png",
+        "text": "注册"
+      },
+      {
+        "pagePath": "pages/课堂/课堂",
+        "iconPath": "",
+        "selectedIconPath": "",
+        "text": "课堂"
+      }
+    ],
+    "position": "bottom"
+  },
+  "sitemapLocation": "sitemap99.json"
+}
