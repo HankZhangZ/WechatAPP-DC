@@ -3,14 +3,14 @@ App({
   onLaunch: function () {
     console.log ( "app.js初始化" )
     var logs = wx.getStorageSync('logs') || []
-    logs.unshift ( Data.now() )
+    logs.unshift ( Date.now() )
     wx.setStorageSync ( 'logs', logs )
     wx.login({
       success: res => {
         console.log ( 'we.login登录成功' )
       }
     })
-    we.wx.getSetting({
+    wx.getSetting({
       success: res => {
         console.log ( '获取用户的当前设置，返回授权后的信息' )
         console.log(res)

@@ -1,18 +1,83 @@
 // miniprogram/page/课堂/课堂.js
+var app = getApp();
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    cur_id: app.cur_id,
+    basic: "",
+    now: "",
+    icon: "",
+    loc: "",
+    lifestyle: []
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad: function () {
+    var that = this;
+    wx.showToast({
+      title: '加载中',
+      icon: 'loading',
+      duration: 10000
+    })
+    that.getnow ( function ( d ) {
+      wx.hideToast()
+      console.info (d)
+      var icon1 = "https://cdn.heclass.com/cond_icon/" + d.now.cond_code + ".png";
+      console.info ( icon1 )
+      that.setData ({
+        basic: d.basic,
+        now: d.now,
+        icon: icon1,
+        ioc:d.update.loc
+      })
+    })
+    that.getsuggestion ( function ( d ) {
+      console.info ( d )
+      that.setData ({
+        lifestyle: d.lifestyle
+       })  
+    })
+  },
 
+  bindViewTap: function () {
+    wx.switchTab({
+      url: '../课堂/课堂',
+    })
+  },
+
+  onPullDownRefresh: function () {
+    wx.showNavigationBarLoading();
+    var that = this;
+    wx.showToast({
+      title: '加载中',
+      icon: 'loading',
+      duration: '10000'
+    })
+    that.getnow ( function ( d ) {
+      wx.hideToast()
+      console.info (d)
+      var icon1 = "https://cdn.heclass.com/cond_icon/" + d.now.cond_code + ".png";
+      console,info ( icon1 )
+      that.setData ({
+        basic: d.basic,
+        now: d.now,
+        icon: icon1,
+        ioc:d.update.loc
+      })
+    })
+    that.getsuggestion ( function ( d ) {
+      console.info ( d )
+      that.setData ({
+        lifestyle: d.lifestyle
+       })  
+    })
+    wx.hideNavigationBarLoading();
+    wx.stopPullDownRefresh();
   },
 
   /**
