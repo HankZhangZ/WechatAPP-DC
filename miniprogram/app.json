@@ -31,12 +31,11 @@
       },
       {
         "pagePath": "pages/课堂/课堂",
-        "iconPath": "",
-        "selectedIconPath": "",
+        "iconPath": "images/课堂.png",
+        "selectedIconPath": "images/课堂2.png",
         "text": "课堂"
       }
     ],
     "position": "bottom"
-  },
-  "sitemapLocation": "sitemap99.json"
+  }
 }
