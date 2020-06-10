@@ -27,7 +27,7 @@ Page({
     that.getnow ( function ( d ) {
       wx.hideToast()
       console.info (d)
-      var icon1 = "https://cdn.heweather.com/cond_icon/" + d.now.cond_code + ".png";
+      var icon1 = "https://cdn.heclass.com/cond_icon/" + d.now.cond_code + ".png";
       console,info ( icon1 )
       that.setData ({
         basic: d.basic,
