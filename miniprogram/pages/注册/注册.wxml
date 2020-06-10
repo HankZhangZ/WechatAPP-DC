@@ -1,2 +1,2 @@
 <!--miniprogram/page/注册/注册.wxml-->
-<text>miniprogram/page/注册/注册.wxml</text>
+<view>{{message}}</view>
