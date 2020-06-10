@@ -2,7 +2,8 @@
   "pages": [
     "pages/问题/问题",
     "pages/注册/注册",
-    "pages/课堂/课堂"
+    "pages/课堂/课堂",
+    "pages/USER/USER"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -24,18 +25,19 @@
         "text": "问题"
       },
       {
-        "pagePath": "pages/注册/注册",
-        "iconPath": "images/注册‘.png",
-        "selectedIconPath": "images/注册2.png",
-        "text": "注册"
-      },
-      {
         "pagePath": "pages/课堂/课堂",
         "iconPath": "images/课堂.png",
         "selectedIconPath": "images/课堂2.png",
         "text": "课堂"
+      },
+      {
+        "pagePath":"pages/USER/USER",
+        "iconPath":"images/注册‘.png",
+        "selectedIconPath":"images/注册2.png",
+        "text":"个人中心"
       }
     ],
     "position": "bottom"
-  }
+  },
+  "sitemapLocation": "sitemap1.json"
 }
