@@ -1,12 +1,9 @@
 {
   "pages": [
     "pages/login/login",
-    "pages/课堂/课堂"
+    "pages/注册/注册",
+    "pages/register/register"
   ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#cc3333",
-    "navigationBarTitleText": "授权登录",
-    "navigationBarTextStyle": "black"
-  }
+  "window": {},
+  "sitemapLocation": "sitemap10.json"
 }

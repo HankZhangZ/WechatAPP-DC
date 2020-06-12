@@ -1,0 +1,4 @@
+/* pages/register/register.wxss */
+.back_button {
+  margin-right: 400rpx;
+}

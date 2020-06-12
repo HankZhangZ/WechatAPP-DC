@@ -1,2 +1,4 @@
 <!--miniprogram/page/注册/注册.wxml-->
-<view>{{message}}</view>
+<view>
+  <text>新页面</text>
+</view>

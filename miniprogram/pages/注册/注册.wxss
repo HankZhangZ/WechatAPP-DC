@@ -1,1 +1,5 @@
 /* miniprogram/page/注册/注册.wxss */
+
+.input1 {
+  border: 1px solid #c0c0c0;
+}

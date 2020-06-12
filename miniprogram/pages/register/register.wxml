@@ -1,0 +1,16 @@
+<!--pages/register/register.wxml-->
+<view>
+  <input
+    class="username"
+    placeholder=" 请输入用户名"
+    value="{{  username }}"
+    bindinput="inputChangeHandle"
+    data-prop="username"/>
+  <input
+    class="password"
+    placeholder=" 请输入密码"
+    value="{{  username }}"
+    bindinput="inputChangeHandle"
+    data-prop="password"/>
+</view>
+

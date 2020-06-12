@@ -1,41 +1,27 @@
-<view wx:if="{{isHide}}">
-
-    <view wx:if="{{canIUse}}" >
-
-        <view class='header'>
-
-            <image src='/images/wx_login.png'></image>
-
-        </view>
-
-
-
-        <view class='content'>
-
-            <view>申请获取以下权限</view>
-
-            <text>获得你的公开信息(昵称，头像等)</text>
-
-        </view>
-
-
-
-        <button class='bottom' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">
-
-            授权登录
-
-        </button>
-
-    </view>
-
-    <view wx:else>请升级微信版本</view>
-
-</view>
-
-
-
-<view wx:else>
-
-    <view>我的首页内容</view>
-
+<!--miniprogram/pages/login/login.wxml-->
+<view class="container">
+  <view class="header">
+    <image src="../../images/wx_login.png" mode="aspectFit"/>
+  </view>
+  <view>
+    <input 
+      class="username" 
+      placeholder=" 请输入用户名" 
+      value="{{  username }}" 
+      bindinput="inputChangeHandle" 
+      data-prop="username"/>
+    <input 
+      class="password" 
+      type="password" 
+      placeholder=" 请输入密码" 
+      value="{{  password }}" 
+      bindinput="inputChangeHandle" 
+      data-prop="password"/> 
+  </view>
+  <view class="button_fpages" loading="true">
+    <button type="primary" bindtap="btnToDo1">登录</button>
+  </view>
+  <view class="button_spages" loading="true">
+    <button type="default" bindtap="btnToDo2">注册</button>
+  </view>
 </view>
