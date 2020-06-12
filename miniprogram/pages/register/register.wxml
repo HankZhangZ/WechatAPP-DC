@@ -9,8 +9,18 @@
   <input
     class="password"
     placeholder=" 请输入密码"
-    value="{{  username }}"
+    value="{{  password }}"
     bindinput="inputChangeHandle"
     data-prop="password"/>
+  <input
+    class="double_password"
+    placeholder=" 请再次输入密码"
+    value="{{ double_password }}"
+    bindinput="inputChangeHandle"
+    data-prop="double_password"/>
 </view>
+<view class="button_first">
+  <button type="default" bindtap="btnf">确认注册</button>
+</view>
+
 

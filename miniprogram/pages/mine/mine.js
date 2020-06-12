@@ -1,45 +1,27 @@
-// pages/register/register.js
+// pages/mine/mine.js
 Page({
+
   /**
    * 页面的初始数据
    */
   data: {
-    username: '',
-    password: '',
-    double_password: ''
+
   },
-/*曾经自己写的SB返回函数
-  backTologin: function () {
-    wx.navigateBack()
-  },
-*/
-  //单向数据流
-  inputChangeHandle: function (e) {
-    //var prop = 'username'
-    var prop = e.target.dataset.prop
-    var changed = {}
-    changed[prop] = e.detail.value
-    this.setData (changed)
-  },
-  //button确认注册的事件
-  btnf: function () {
-    wx.showModal ({
-      title: '是否确认注册',
+  mine_button_first: function () {
+    wx.showModal({
+      title: "确认进入用户登录界面",
+      cancelColor: 'cancelColor',
       success: function (res) {
         if (res.confirm) {
-          wx.switchTab({
-            url: '../first_page/first_page',
+          console.log ("用户进入登录界面")
+          wx.navigateTo({
+            url: '../login/login',
           })
-        } else {
-          wx.showToast({
-            title: '返回注册界面',
-            icon: 'loading',
-            duration: 1500
-          })
-        }
+        } 
       }
     })
   },
+
   /**
    * 生命周期函数--监听页面加载
    */

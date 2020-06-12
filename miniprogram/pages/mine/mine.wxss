@@ -1,0 +1,7 @@
+/* pages/mine/mine.wxss */
+
+.mbf {
+  margin-top: 40rpx;
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+}

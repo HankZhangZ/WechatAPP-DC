@@ -1,0 +1,5 @@
+<!--pages/mine/mine.wxml-->
+<view class="mbf">
+  <button type="default" bindtap="mine_button_first">用户登录</button>
+</view>
+

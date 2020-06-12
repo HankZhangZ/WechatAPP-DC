@@ -38,10 +38,31 @@ Page({
   //  console.log (this.data)
   },
 
-  btnToDo1: function () {
+  btnToDo1:function () {
+    wx.showModal({
+      title: '确认是否登录',
+      cancelColor: 'cancelColor',
+      success: function (res) {
+        if (res.confirm) {
+          console.log ("用户点击确认")
+          wx.switchTab({
+            url: '../first_page/first_page',
+          })
+        } else {
+          wx.showToast({
+            title: '退回登录界面',
+            icon: 'loading',
+            duration: 1500
+          })
+        }
+      } 
+    })
+  },
+
+  btnToDo2: function () {
  //   console.log (111)
     wx.showModal({
-      title: '确认是否登录？',
+      title: '确认是否注册？',
       cancelColor: 'cancelColor',
       success: function (res) {
         if (res.confirm) {

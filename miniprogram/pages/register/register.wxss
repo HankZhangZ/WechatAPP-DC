@@ -2,3 +2,39 @@
 .back_button {
   margin-right: 400rpx;
 }
+
+.username {
+  margin-top: 400rpx;
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+  height: 60rpx;
+  border: grey solid;
+  border-width: 3rpx;
+  border-radius: 30rpx;
+}
+
+.password {
+  margin-top: 15rpx;
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+  height: 60rpx;
+  border: grey solid;
+  border-width: 3rpx;
+  border-radius: 30rpx;
+}
+
+.double_password {
+  margin-top: 15rpx;
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+  height: 60rpx;
+  border: grey solid;
+  border-width: 3rpx;
+  border-radius: 30rpx;
+}
+
+.button_first {
+  margin-top: 50rpx;
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+}

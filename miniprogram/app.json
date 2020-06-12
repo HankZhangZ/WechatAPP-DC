@@ -1,9 +1,36 @@
 {
   "pages": [
+    "pages/first_page/first_page",
     "pages/login/login",
     "pages/注册/注册",
-    "pages/register/register"
+    "pages/register/register",
+    "pages/information/information",
+    "pages/mine/mine"
   ],
-  "window": {},
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "新农村科技直通桥"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/first_page/first_page",
+        "text": "首页",
+        "iconPath": "../miniprogram/images/tabbar_first.png"
+      },
+      {
+        "pagePath": "pages/information/information",
+        "text": "信息",
+        "iconPath": "../miniprogram/images/tabbar_second.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "../miniprogram/images/tabbar_third.png"
+      }
+    ],
+    "position": "bottom"
+  },
   "sitemapLocation": "sitemap10.json"
 }
