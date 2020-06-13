@@ -1,5 +1,8 @@
 <!--pages/register/register.wxml-->
 <view>
+  <view class="imagef">
+    <image src="../../images/xnq.png"/>
+  </view>
   <input
     class="username"
     placeholder=" 请输入用户名"

@@ -4,12 +4,12 @@
 }
 
 .username {
-  margin-top: 400rpx;
+  margin-top: 30rpx;
   margin-left: 60rpx;
   margin-right: 60rpx;
   height: 60rpx;
   border: grey solid;
-  border-width: 3rpx;
+  border-width: 6rpx;
   border-radius: 30rpx;
 }
 
@@ -19,7 +19,7 @@
   margin-right: 60rpx;
   height: 60rpx;
   border: grey solid;
-  border-width: 3rpx;
+  border-width: 6rpx;
   border-radius: 30rpx;
 }
 
@@ -29,7 +29,7 @@
   margin-right: 60rpx;
   height: 60rpx;
   border: grey solid;
-  border-width: 3rpx;
+  border-width: 6rpx;
   border-radius: 30rpx;
 }
 
@@ -37,4 +37,14 @@
   margin-top: 50rpx;
   margin-left: 60rpx;
   margin-right: 60rpx;
+}
+
+.imagef {
+  display: flex;
+  justify-content: center;
+}
+
+.imagef image {
+  height: 500rpx;
+  width: 500rpx;
 }
