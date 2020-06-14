@@ -1,0 +1,24 @@
+<!--pages/about_informaiton/about_information.wxml-->
+ <view class="xi_an">
+  <view class="item">
+    <image src="../../images/shan_xi.jpg" mode="aspectFill"/>
+    <text>陕西农产品近期价格，详情请点击右上角</text>
+  </view>
+  <view class="links" bindtap="links_event">
+    <image src="../../images/link-fie.png" mode="aspectFill"/>
+  </view>
+  <view class="item">
+    <image src="../../images/si_chuan.jpg" mode="aspectFill"/>
+    <text>四川农产品近期价格，详情请点击右上角</text>
+  </view>
+  <view class="link2s" bindtap="link2s_event">
+    <image src="../../images/link-fie.png" mode="aspectFill"/>
+  </view>
+  <view class="item">
+    <image src="../../images/hu_nan.jpg" mode="aspectFill"/>
+    <text>湖南农产品近期价格，详情请点击右上角</text>
+  </view>
+  <view class="link3s" bindtap="link3s_event">
+    <image src="../../images/link-fie.png" mode="aspectFill"/>
+  </view>
+ </view>

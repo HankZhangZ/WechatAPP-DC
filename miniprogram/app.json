@@ -2,10 +2,18 @@
   "pages": [
     "pages/first_page/first_page",
     "pages/login/login",
-    "pages/注册/注册",
     "pages/register/register",
     "pages/information/information",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/class_z1/class_z1",
+    "pages/about_informaiton/about_information",
+    "pages/question/question",
+    "pages/talking/talking",
+    "pages/produce_information/produce_information",
+    "pages/public_in/public_in",
+    "pages/outs/outs",
+    "pages/outss/outss",
+    "pages/outsf/outsf"
   ],
   "window": {
     "navigationBarTextStyle": "white",

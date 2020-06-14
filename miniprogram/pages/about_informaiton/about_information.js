@@ -1,41 +1,49 @@
-// pages/first_page/first_page.js
+// pages/about_informaiton/about_information.js
+const fetch = require('../../utils/fetch')
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    category: {},
+    shops: []
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
+
+  links_event: function () {
+    wx.navigateTo({
+      url: '../outs/outs',
+      success: (result) => {},
+      fail: (res) => {},
+      complete: (res) => {},
+    })
+  },
+
+  link2s_event: function () {
+    wx.navigateTo({
+      url: '../outss/outss',
+      success: (result) => {},
+      fail: (res) => {},
+      complete: (res) => {},
+    })
+  },
+
+  link3s_event: function () {
+    wx.navigateTo({
+      url: '../outsf/outsf',
+      success: (result) => {},
+      fail: (res) => {},
+      complete: (res) => {},
+    })
+  },
+  
+  
   onLoad: function (options) {
     
-    wx.request({
-      url: 'https://www.myagric.com/',
-      success: function (res) {
-        /*
-        console.log (res)
-        */
-       /*
-        console.log (res.data)
-        */
-      } 
-    })
-    /*
-    wx.request({
-      url: 'http://www.cn-ncpxx.com/',
-      header: {
-        'Content-Type': 'json'
-      },
-      success: function (res) {
-        console.log (res)
-      }
-    })*/
-    /*
-    console.log (options)*/
   },
 
   /**

@@ -1,41 +1,18 @@
-// pages/first_page/first_page.js
+// pages/talking/talking.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
-    wx.request({
-      url: 'https://www.myagric.com/',
-      success: function (res) {
-        /*
-        console.log (res)
-        */
-       /*
-        console.log (res.data)
-        */
-      } 
-    })
-    /*
-    wx.request({
-      url: 'http://www.cn-ncpxx.com/',
-      header: {
-        'Content-Type': 'json'
-      },
-      success: function (res) {
-        console.log (res)
-      }
-    })*/
-    /*
-    console.log (options)*/
+
   },
 
   /**

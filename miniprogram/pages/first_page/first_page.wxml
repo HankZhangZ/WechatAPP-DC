@@ -1,2 +1,36 @@
 <!--pages/first_page/first_page.wxml-->
-<text>pages/first_page/first_page.wxml</text>
+<swiper class="slide">
+  <swiper-item>
+    <image src="../../images/first-pic.jpg" mode="aspectFill"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../images/second-fir.jpg"/>
+  </swiper-item>
+</swiper>
+
+<view class="grids">
+  <navigator class="item" url="../class_z1/class_z1">
+    <image src="../../images/nine-fir.png"/>
+    <text>课堂</text>
+  </navigator>
+  <navigator class="item" url="../about_informaiton/about_information">
+    <image src="../../images/nine-sec.png"/>
+    <text>相关信息</text>
+  </navigator>
+  <navigator class="item" url="../question/question">
+    <image src="../../images/nine-thi.png"/>
+    <text>提问和解答</text>
+  </navigator>
+  <navigator class="item" url="../talking/talking">
+    <image src="../../images/nine-for.png"/>
+    <text>讨论区</text>
+  </navigator>
+  <navigator class="item" url="../produce_information/produce_information">
+    <image src="../../images/nine-fif.png"/>
+    <text>农产品信息</text>
+  </navigator>
+  <navigator class="item" url="../public_in/public_in">
+    <image src="../../images/nine-six.png"/>
+    <text>相关政策</text>
+  </navigator>
+</view>

@@ -1,0 +1,64 @@
+/* pages/about_informaiton/about_information.wxss */
+
+.xi_an {
+  margin-top: 60rpx;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  font-size: 28rpx;
+}
+
+.xi_an .item {
+  margin-top: 30rpx;
+  display: flex;
+  width: 100%;
+  border: 3rpx solid rgb(206, 206, 206);
+  box-sizing: border-box;
+}
+
+.xi_an .item image {
+  margin-left: 100rpx;
+  height: 300rpx;
+  width: 500rpx;
+}
+
+.xi_an .item text {
+  width: 200rpx;
+  margin-left: 20rpx;
+  margin-top: 165rpx;
+  color: #888;
+  display: block;
+}
+
+.xi_an .links {
+  margin-top: 40rpx;
+  margin-left: 660rpx;
+  position: absolute;
+}
+
+.xi_an .link2s {
+  margin-top: 375rpx;
+  margin-left: 660rpx;
+  position: absolute;
+}
+
+.xi_an .link3s {
+  margin-top: 710rpx;
+  margin-left: 660rpx;
+  position: absolute;
+}
+
+.xi_an .links image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.xi_an .link2s image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.xi_an .link3s image {
+  width: 60rpx;
+  height: 60rpx;
+}
